@@ -29,7 +29,7 @@ namespace InfiniteJunimoCartLives
                     if (livesLeft.GetValue() < 3)
                     {
                         livesLeft.SetValue(3);
-                        this.Monitor.Log("Set Cart Lives to 3");
+                        //this.Monitor.Log("Set Cart Lives to 3");
                     }
                     else { return; }
                 }
